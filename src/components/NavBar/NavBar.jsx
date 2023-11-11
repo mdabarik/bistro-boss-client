@@ -7,24 +7,24 @@ const NavBar = () => {
             <NavLink to="/">Home</NavLink>
         </li>
         <li>
-            <NavLink to="/">Contact Us</NavLink>
+            <NavLink to="/contact-us">Contact Us</NavLink>
         </li>
         <li>
-            <NavLink to="/">Dashboard</NavLink>
+            <NavLink to="/dashboard">Dashboard</NavLink>
         </li>
         <li>
-            <NavLink to="/">Our Menu</NavLink>
+            <NavLink to="/menu">Our Menu</NavLink>
         </li>
         <li>
-            <NavLink to="/">Our Shop</NavLink>
+            <NavLink to="/our-shop">Our Shop</NavLink>
         </li>
         <li>
-            <NavLink to="/">Sign Out</NavLink>
+            <NavLink to="/signout">Sign Out</NavLink>
         </li>
     </>
 
     return (
-        <div className="navbar bg-black text-white bg-opacity-30 z-10 fixed">
+        <div className="navbar bg-black text-white bg-opacity-30 z-10 fixed max-w-[1280px]">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">

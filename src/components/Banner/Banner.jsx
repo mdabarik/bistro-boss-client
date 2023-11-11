@@ -9,7 +9,7 @@ import img6 from "../../../src/assets/home/06.png";
 
 const Banner = () => {
     return (
-        <Carousel autoPlay="true" infiniteLoop="true" centerMode="false">
+        <Carousel className="text-center" autoPlay="true" infiniteLoop="true" centerMode="false">
             <div>
                 <img src={img1} />
                 <p className="legend">Legend 1</p>
