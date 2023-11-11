@@ -1,6 +1,9 @@
 import { Parallax } from 'react-parallax';
+import useMenu from '../../hooks/useMenu';
 
 const Cover = ({ img, title }) => {
+
+
     return (
         <Parallax
             blur={{ min: -50, max: 50 }}
